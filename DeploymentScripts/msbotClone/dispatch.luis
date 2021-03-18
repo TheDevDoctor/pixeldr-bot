@@ -1,0 +1,27 @@
+{
+  "name": "Dispatch",
+  "versionId": "Dispatch",
+  "desc": "Dispatch model for Dispatch",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "l_PixelDrHistoryBot_General"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "q_FAQ"
+    }
+  ],
+  "entities": [],
+  "closedLists": [],
+  "composites": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "regex_features": [],
+  "model_features": [],
+  "patterns": [],
+  "utterances": []
+}

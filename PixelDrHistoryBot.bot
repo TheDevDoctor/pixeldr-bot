@@ -1,0 +1,89 @@
+{
+  "name": "PixelDrHistoryBot",
+  "description": "",
+  "services": [
+    {
+      "type": "abs",
+      "appId": "a14dac5b-0516-4b56-b868-ed016f442f34",
+      "id": "49",
+      "name": "PixelDrHistoryBot",
+      "resourceGroup": "PixelDr-Bot",
+      "serviceName": "PixelDrHistoryBot",
+      "subscriptionId": "a896f8f7-7b70-4bb6-932e-331a229626f2",
+      "tenantId": "d7db98ef-7375-497b-b940-0667e21379f2"
+    },
+    {
+      "type": "endpoint",
+      "appId": "a14dac5b-0516-4b56-b868-ed016f442f34",
+      "appPassword": "qxnTPEYR718=~untoQP26{#",
+      "endpoint": "http://localhost:3978/api/messages",
+      "id": "1",
+      "name": "development"
+    },
+    {
+      "type": "endpoint",
+      "appId": "a14dac5b-0516-4b56-b868-ed016f442f34",
+      "appPassword": "qxnTPEYR718=~untoQP26{#",
+      "endpoint": "https://ixelristory3d9c.azurewebsites.net/api/messages",
+      "id": "30",
+      "name": "production"
+    },
+    {
+      "type": "appInsights",
+      "apiKeys": {},
+      "applicationId": "68f10958-22e4-472e-b894-e077f3c0de1f",
+      "id": "3",
+      "instrumentationKey": "2d22bca8-597f-4eec-a500-b6ef47c5c3f6",
+      "name": "PixelDrHistoryBotqj4q4h",
+      "resourceGroup": "PixelDr-Bots",
+      "serviceName": "PixelDrHistoryBotqj4q4h",
+      "subscriptionId": "a896f8f7-7b70-4bb6-932e-331a229626f2",
+      "tenantId": "d7db98ef-7375-497b-b940-0667e21379f2"
+    },
+    {
+      "type": "blob",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=pixeldrstorage;AccountKey=8g0GNZJmmI+yljCE0G/x7zrD0CSr//sGVKiuWjYGSqVPv260qb3uOyuDq/OJbN5X0nINxR9JoZyBjo8Qe1QCpg==;EndpointSuffix=core.windows.net",
+      "container": "pixeldrhistorybottranscripts",
+      "id": "2",
+      "name": "pixeldrstorage",
+      "resourceGroup": "PixelDr-Data",
+      "serviceName": "pixeldrstorage",
+      "subscriptionId": "a896f8f7-7b70-4bb6-932e-331a229626f2",
+      "tenantId": "d7db98ef-7375-497b-b940-0667e21379f2"
+    },
+    {
+      "type": "cosmosdb",
+      "collection": "HistoryBotState",
+      "database": "PixelDr",
+      "endpoint": "https://pixeldr-db.documents.azure.com:443/",
+      "id": "8",
+      "key": "WmTWDHriPVvuPwiXivAc0ZMYx4ECQR3vuAw48suiAXe7aFWTWtH7Dho2cAnmAt1YupMdamSGKUhyXtVUBQ0d5w==",
+      "name": "pixeldr-db",
+      "resourceGroup": "PixelDr-Data",
+      "serviceName": "pixeldr-db",
+      "subscriptionId": "5732e7a5-038e-4569-bb2a-6f184a0eb35f",
+      "tenantId": "e94b82cf-0b39-4d98-b09d-07bfbbe4ef5e"
+    },
+    {
+      "type": "luis",
+      "appId": "e8216d73-635e-40ab-be4b-b179a40d73d0",
+      "authoringKey": "536959f5f3d043b2b59480268cce1caa",
+      "id": "PixelDrHistoryBot_General",
+      "name": "PixelDrHistoryBot_General",
+      "region": "westeurope",
+      "subscriptionKey": "6acc95fd84ef438bb27685fecccf3556",
+      "version": "0.1"
+    },
+    {
+      "type": "qna",
+      "endpointKey": "92dd8ce1-266e-41c0-97cd-f385268a2447",
+      "hostname": "https://pixeldrhistorybot-qnahost.azurewebsites.net/qnamaker",
+      "id": "PixelDrHistoryBot",
+      "kbId": "ee93642d-d3a6-476f-b475-f30465d236ad",
+      "name": "PixelDrHistoryBot",
+      "subscriptionKey": "0dbd9c988f844b789894bff9e2a70a59"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
